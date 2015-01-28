@@ -1,0 +1,162 @@
+﻿body {
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	display: -ms-grid;
+	-ms-grid-columns: 15px 1fr 15px;
+	-ms-grid-rows: 15px 60px 10px 1fr 25px;
+	background-image: linear-gradient(white, rgba(4, 4, 4, 0.5647) 0%, rgba(0, 0, 0, 0.4118)), url('/arka1.png');
+	background-size: auto, cover;
+    color:white;
+}
+
+#header {
+	display: -ms-grid;
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+	-ms-grid-columns: 10px 1fr 10px;
+	-ms-grid-rows: 1px 1fr 15px;
+}
+
+#yemekler {
+	display: -ms-grid;
+	-ms-grid-column: 2;
+	-ms-grid-row: 4;
+	-ms-grid-rows: 5px 1fr 25px 1fr 5px;
+	-ms-grid-columns: 10px 1fr 10px;
+}
+
+#head {
+	display: -ms-grid;
+	font-size: 40px;
+	font-variant: small-caps;
+	font-family: 'Segoe UI';
+	font-weight: lighter;
+	text-transform: capitalize;
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+}
+
+#bugun {
+	display: -ms-grid;
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+	-ms-grid-columns: 15px 1fr 15px;
+	-ms-grid-rows: 3px 45px 1fr 3px;
+	background-color: rgba(255, 255, 255, 0.2196);
+}
+
+#yarin {
+	display: -ms-grid;
+	-ms-grid-column: 2;
+	-ms-grid-row: 4;
+	-ms-grid-columns: 25px 1fr 15px;
+	-ms-grid-rows: 3px 45px 1fr 3px;
+	background-color: rgba(255, 255, 255, 0.2196);
+}
+
+#bBaslik {
+	display: -ms-grid;
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+	font-family: 'Segoe UI';
+	font-size: 32px;
+	font-weight: lighter;
+	font-variant: small-caps;
+}
+
+#bListe {
+	display: -ms-grid;
+	-ms-grid-column: 2;
+	-ms-grid-row: 3;
+	-ms-grid-rows: 40px 40px 40px 40px 40px;
+	width: auto;
+	height: auto;
+	-ms-grid-column-align: stretch;
+	-ms-grid-row-align: stretch;
+	margin: 0px;
+	
+}
+
+#b1 {
+	display: -ms-grid;
+	-ms-grid-row: 1;
+}
+
+#b2 {
+	display: -ms-grid;
+	-ms-grid-row: 2;
+}
+
+#b3 {
+	display: -ms-grid;
+	-ms-grid-row: 3;
+}
+
+#b4 {
+	display: -ms-grid;
+	-ms-grid-row: 4;
+}
+
+#bK {
+	display: -ms-grid;
+	-ms-grid-row: 5;
+}
+
+.eleman {
+	font-family: 'Segoe UI';
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+#yBaslik {
+	display: -ms-grid;
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+	font-family: 'Segoe UI';
+	font-size: 32px;
+	font-weight: lighter;
+	font-variant: small-caps;
+	
+}
+
+#yListe {
+	display: -ms-grid;
+	-ms-grid-rows: 40px 40px 40px 40px 40px;
+	-ms-grid-column: 2;
+	-ms-grid-row: 3;
+	width: auto;
+	height: auto;
+	-ms-grid-column-align: stretch;
+	-ms-grid-row-align: stretch;
+	margin: 0px;
+	
+}
+
+#y1 {
+	display: -ms-grid;
+	-ms-grid-row: 1;
+}
+
+#y2 {
+	display: -ms-grid;
+	-ms-grid-row: 2;
+}
+
+#y3 {
+	display: -ms-grid;
+	-ms-grid-row: 3;
+}
+
+#y4 {
+	display: -ms-grid;
+	-ms-grid-row: 4;
+}
+
+#yK {
+	display: -ms-grid;
+	-ms-grid-row: 5;
+}
+

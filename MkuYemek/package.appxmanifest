@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" IgnorableNamespaces="build">
+  <Identity Name="19762cevherkarakoc.MkYemekhane" Version="1.1.0.2" Publisher="CN=86E20153-50AD-4F18-BD52-B457455812E2" />
+  <mp:PhoneIdentity PhoneProductId="73479d0d-fa78-4da5-953d-a2c44be0a7b6" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Mkü Yemekhane</DisplayName>
+    <PublisherDisplayName>cevherkarakoc</PublisherDisplayName>
+    <Logo>images\mkuYemek50.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <m3:VisualElements DisplayName="Mkü Yemekhane" Square150x150Logo="images\mkuYemek150.png" Square44x44Logo="images\mkuYemek44.png" Description="Mustafa Kemal Üniversite'nin bugün ve yarın için yemek listesini gösterir." ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Square71x71Logo="images\mkuYemek71.png">
+          <m3:ShowNameOnTiles>
+            <m3:ShowOn Tile="square150x150Logo" />
+          </m3:ShowNameOnTiles>
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="images\mkuYemekUzun.png" BackgroundColor="#981E15" />
+        <m3:InitialRotationPreference>
+          <m3:Rotation Preference="portrait" />
+        </m3:InitialRotationPreference>
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Blend" Version="12.0.51020.0" />
+  </build:Metadata>
+</Package>
